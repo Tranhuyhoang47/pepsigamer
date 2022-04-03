@@ -144,9 +144,10 @@ const SignIn: React.FC = (props: any) => {
                   style={styles.image}
                 />
                 <RectangleButton
-                  onPress={formik.submitForm}
+                  // onPress={formik.submitForm}
                   title="Lấy mã OTP"
                   disabled={!formik.isValid}
+                  onPress={() => navigation.navigate('Main screen')}
                   backgroundImage={BUTTON_RED}
                 />
                 <Text style={styles.textOr}>{'Hoặc'}</Text>

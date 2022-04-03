@@ -191,7 +191,8 @@ const styles = StyleSheet.create({
   },
   buttonRed: {
     height: windowHeight * 0.1,
-    width: '70%',
+    left:20,
+    width: '85%',
     borderRadius: 5,
     // borderColor: 'white',
     // borderWidth: 1,
@@ -199,7 +200,8 @@ const styles = StyleSheet.create({
   buttonWhite: {
     marginTop: -windowHeight * 0.01,
     height: windowHeight * 0.08,
-    width: '70%',
+    left:20,
+    width: '85%',
     borderRadius: 5,
     // borderColor: 'red',
     // borderWidth: 1,

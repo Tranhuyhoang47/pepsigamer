@@ -4,9 +4,6 @@ import {Alert} from 'react-native';
 // import axios from 'axios';
 import auth from '@react-native-firebase/auth';
 
-// const baseUrl =
-//   'https://firestore.googleapis.com/v1/projects/pepsigameauth/databases/(default)/documents';
-
 export const getUser = async (phoneNumber: string) => {
   const doc = await firestore()
     .collection('users')
